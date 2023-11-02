@@ -4,5 +4,5 @@
 -e git+https://github.com/ckan/ckan.git@ckan-2.10.1#egg=ckan[requirements]
 
 # Runtime requirements
-uWSGI==2.0.22
+uWSGI==2.0.23
 gevent==21.12.0

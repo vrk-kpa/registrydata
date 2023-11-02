@@ -5,7 +5,7 @@
 #    pip-compile ckan-requirements.in
 #
 -e git+https://github.com/ckan/ckan.git@ckan-2.10.1#egg=ckan[requirements]
-    # via -r ckan-requirements.in
+    # via -r ckan/ckan-requirements.in
 alembic==1.8.1
     # via ckan
 babel==2.10.3
@@ -55,7 +55,7 @@ flask-multistatic==1.0
 flask-wtf==1.0.1
     # via ckan
 gevent==21.12.0
-    # via -r ckan-requirements.in
+    # via -r ckan/ckan-requirements.in
 greenlet==1.1.2
     # via
     #   ckan
@@ -164,6 +164,7 @@ sqlalchemy[mypy]==1.4.41
     # via
     #   alembic
     #   ckan
+    #   sqlalchemy
 sqlalchemy2-stubs==0.0.2a27
     # via
     #   ckan
@@ -187,8 +188,8 @@ urllib3==1.26.9
     # via
     #   ckan
     #   requests
-uwsgi==2.0.22
-    # via -r ckan-requirements.in
+uwsgi==2.0.23
+    # via -r ckan/ckan-requirements.in
 watchdog==2.1.6
     # via
     #   ckan
@@ -204,6 +205,7 @@ werkzeug[watchdog]==2.0.3
     #   ckan
     #   flask
     #   flask-login
+    #   werkzeug
 wrapt==1.14.0
     # via
     #   ckan
