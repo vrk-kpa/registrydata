@@ -32,6 +32,6 @@
     "sass": "^1.66.1",
     "stylelint": "^15.10.3",
     "stylelint-config-standard-scss": "^10.0.0",
-    "suomifi-design-tokens": "^5.1.0"
+    "suomifi-design-tokens": "^6.0.0"
   }
 }
