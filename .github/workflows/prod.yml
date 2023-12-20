@@ -70,7 +70,7 @@ jobs:
 
       - name: upload syth log artifacts
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: synth-logs
           path: /tmp/synth.log
@@ -82,7 +82,7 @@ jobs:
 
       - name: upload deploy log artifacts
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: deploy-logs
           path: /tmp/deploy.log
